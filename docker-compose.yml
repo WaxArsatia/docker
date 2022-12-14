@@ -2,7 +2,5 @@ services:
   web:
     pull_policy: "build"
     build: .
-    volumes:
-      - ".:/app/"
     ports:
       - "80:80"
