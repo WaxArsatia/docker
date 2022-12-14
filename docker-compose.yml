@@ -6,6 +6,6 @@ services:
       - "80:80"
 
 networks:
-  defaul:
+  default:
     name: "dhcp"
     external: true
