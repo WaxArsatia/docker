@@ -1,0 +1,24 @@
+{
+  "name": "docker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WaxArsatia/docker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WaxArsatia/docker/issues"
+  },
+  "homepage": "https://github.com/WaxArsatia/docker#readme",
+  "type": "module",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
