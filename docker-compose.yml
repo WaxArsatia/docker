@@ -4,3 +4,8 @@ services:
     build: .
     ports:
       - "80:80"
+
+networks:
+  defaul:
+    name: "dhcp"
+    external: true
